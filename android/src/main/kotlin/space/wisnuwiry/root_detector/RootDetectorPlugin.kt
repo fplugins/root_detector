@@ -59,7 +59,7 @@ class RootDetectorPlugin : FlutterPlugin, MethodCallHandler, ActivityAware {
                 result.success(isRoot)
             }
         } catch (e: IllegalArgumentException) {
-            result.error(e.message, e.message, e.stackTrace)
+            //result.error(e.message, e.message, e.stackTrace)
         }
     }
 
@@ -77,7 +77,7 @@ class RootDetectorPlugin : FlutterPlugin, MethodCallHandler, ActivityAware {
                 result.success(isRoot)
             }
         } catch (e: IllegalArgumentException) {
-            result.error(e.message, e.message, e.stackTrace)
+            //result.error(e.message, e.message, e.stackTrace)
         }
     }
 
